@@ -136,6 +136,11 @@ the driver. Refer to the table below for the firmware files.
 [Fafnir](https://github.com/Infineon/ifx-linux-firmware/blob/release-v5.15.58-2023_0222/firmware/cyfmac55572-sdio.trxse) |
 [Ebirah](https://github.com/Infineon/ifx-linux-firmware/blob/release-v5.10.9-2022_0909/firmware/cyfmac55572-sdio.trxse)
 
+###  Note:
+1. For 2AE-SDIO, rename the "cyfmac4373-sdio.industrial.bin" FW file to "cyfmac4373-sdio.bin" before using.
+2. For 2AE-USB, rename the "cyfmac4373-usb.2AE.bin" FW file to "cyfmac4373.bin" before using.
+3. For 2BC-USB, rename the "cyfmac4373-usb.2BC.bin" FW file to "cyfmac4373.bin" before using.
+4. Same firmware file (cyfmac54591-sdio.bin) is used for 2BZ and 1XA. 2BZ is based out of IFX chipset 54590.
 
 
 ## LICENSE
